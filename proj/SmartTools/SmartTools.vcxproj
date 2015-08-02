@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\SmartTools\ext_ostringstring.hpp" />
-    <ClInclude Include="..\..\src\SmartTools\ext_string.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\src\SmartTools\ext_ostringstring.cpp" />
+    <ClInclude Include="..\..\src\SmartTools\estd\ConstDefination.hpp" />
+    <ClInclude Include="..\..\src\SmartTools\estd\ext_map.hpp" />
+    <ClInclude Include="..\..\src\SmartTools\estd\ext_set.hpp" />
+    <ClInclude Include="..\..\src\SmartTools\estd\ext_sstream.hpp" />
+    <ClInclude Include="..\..\src\SmartTools\estd\ext_vector.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{74C74EA9-4514-4115-9E84-3248C8423C2F}</ProjectGuid>
@@ -34,7 +34,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">

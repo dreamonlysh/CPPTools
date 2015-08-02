@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\SmartTools-gtest\main.cpp" />
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estd.cpp">
+      <Filter>estd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestSuite4estd.cpp">
+      <Filter>estd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="estd">
+      <UniqueIdentifier>{d2e8b9a4-ea91-4d0d-8420-5765e23f6a56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\SmartTools-gtest\estd\TestSuite4estd.hpp">
+      <Filter>estd</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
