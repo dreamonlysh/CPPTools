@@ -1,6 +1,6 @@
 #include "TestSuite4estd.hpp"
 
-namespace gtest { namespace estd {
+namespace gtest { namespace testd {
 
 
 

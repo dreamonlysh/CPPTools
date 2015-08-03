@@ -2,10 +2,16 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\..\src\SmartTools-gtest\main.cpp" />
-    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estd.cpp">
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestSuite4estd.cpp">
       <Filter>estd</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestSuite4estd.cpp">
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdMap.cpp">
+      <Filter>estd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdVector.cpp">
+      <Filter>estd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdSstream.cpp">
       <Filter>estd</Filter>
     </ClCompile>
   </ItemGroup>

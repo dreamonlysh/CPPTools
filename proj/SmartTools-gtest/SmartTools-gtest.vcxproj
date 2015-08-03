@@ -80,7 +80,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estd.cpp" />
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdMap.cpp" />
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdSstream.cpp" />
+    <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestCase4estdVector.cpp" />
     <ClCompile Include="..\..\src\SmartTools-gtest\estd\TestSuite4estd.cpp" />
     <ClCompile Include="..\..\src\SmartTools-gtest\main.cpp" />
   </ItemGroup>

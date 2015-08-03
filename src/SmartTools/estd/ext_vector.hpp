@@ -18,16 +18,15 @@ struct Func
     }
 };
 
-template <typename T, typename F>
+template <typename T>
 std::string join(const std::vector<T>& tVec, 
-    const std::string& sep = STRING_INTERPUNCTION_COMMA,
-    const F& func = Func())
+    const std::string& sep = STRING_INTERPUNCTION_COMMA)
 {
     std::ostringstream oss;
     std::vector<T>::const_iterator iter = tVec.begin();
     while (!tVec.empty())
     {
-        oss << func(*iter);
+        oss << *iter;
         if (++iter == tVec.end()) break;
         oss << sep;
     }

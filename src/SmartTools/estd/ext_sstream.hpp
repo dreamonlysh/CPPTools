@@ -11,13 +11,13 @@ public:
     template <typename T>
     StrObj(const T& inStr)
     {
-        oss << T;
+        oss << inStr;
     }
 
     template <typename T>
     StrObj& operator << (const T& inStr)
     {
-        oss << T;
+        oss << inStr;
         return *this;
     }
     
