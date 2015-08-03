@@ -2,7 +2,7 @@
 #define __TEST_CASE_HPP_GM150117__
 #include <gtest/gtest.h>
 
-namespace gtest { namespace estd {
+namespace gtest { namespace testd {
 
 
 

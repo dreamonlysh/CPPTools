@@ -14,6 +14,7 @@ const std::string STRING_INTERPUNCTION_RBRACKET = "]";
 const std::string STRING_INTERPUNCTION_LPARENTHESIS = "(";
 const std::string STRING_INTERPUNCTION_RPARENTHESIS = ")";
 
+const std::string STRING_COMMON_EMPTY = "";
 const std::string STRING_COMMON_SPACE = " ";
 
 }
